@@ -5,11 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsharpcsharp", "fsharpcsharp.csproj", "{5D132B42-F99B-460F-A0B2-9398347BB1F9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E284351-96C8-4672-94ED-842C8D7EB9DA}"
-	ProjectSection(SolutionItems) = preProject
-		..\CFInteroperation\FSharpProject\people.xml = ..\CFInteroperation\FSharpProject\people.xml
-	EndProjectSection
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharpLibrary", "fsharpLibrary\fsharpLibrary.fsproj", "{35E166EF-41F3-4B51-9B58-9BF21FD4DBB3}"
 EndProject
 Global
