@@ -31,7 +31,7 @@ let Xml(input:string) =
             |> Seq.map (fun n -> n.ChildNodes)
             |> Seq.map (Seq.cast<XmlNode>)
             |> Seq.concat
-            |> Seq.map (fun (n:XmlNode) -> getNames n)
+            |> Seq.map (getNames)
             |> Seq.iter (fun e -> out.Add(e) |> ignore)
 
     nodeSelect("//name", names)
